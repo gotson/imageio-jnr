@@ -44,6 +44,8 @@
   <modules>
     <module>imageio-openjpeg</module>
     <module>imageio-turbojpeg</module>
+    <module>imageio-webp</module>
+    <module>imageio-jxl</module>
   </modules>
 
   <properties>
@@ -124,18 +126,18 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>com.coveo</groupId>
-        <artifactId>fmt-maven-plugin</artifactId>
-        <version>${version.maven-fmt-plugin}</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>format</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>com.coveo</groupId>-->
+<!--        <artifactId>fmt-maven-plugin</artifactId>-->
+<!--        <version>${version.maven-fmt-plugin}</version>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <goals>-->
+<!--              <goal>format</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
